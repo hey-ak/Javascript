@@ -51,3 +51,26 @@ array - object
 object - object
 function - function
 */
+
+
+// ***************************************************
+
+
+// Stack (Primitive) ,  Heap (Non Primitive)
+let myname = "Akshay Jha"
+let anotherName = myname
+anotherName = "Shubham"
+
+// console.log(myname);
+// console.log(anotherName);
+
+let user = {
+    email:"a@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = user
+userTwo.email = "ak@gmail.com"
+
+console.log(user.email)
+console.log(userTwo.email)
